@@ -18,6 +18,7 @@
 - Only essential dependances (ping)
 
 ### Usage without Download
+Need an Internet connection
 ```bash
 wget -q -O - https://raw.githubusercontent.com/hacknonym/scanNport/master/scanNport.sh | bash /dev/stdin <arg1> <arg2> <arg3>
 curl -s https://raw.githubusercontent.com/hacknonym/scanNport/master/scanNport.sh | bash /dev/stdin <arg1> <arg2> <arg3>
