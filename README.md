@@ -19,12 +19,12 @@
 
 ### Usage without Download
 ```bash
-wget -q -O - https://github.com/hacknonym/scanNport/blob/master/scanNport.sh | bash /dev/stdin <arg1> <arg2> <arg3>
-curl -s https://github.com/hacknonym/scanNport/blob/master/scanNport.sh | bash /dev/stdin <arg1> <arg2> <arg3>
+wget -q -O - https://raw.githubusercontent.com/hacknonym/scanNport/master/scanNport.sh | bash /dev/stdin <arg1> <arg2> <arg3>
+curl -s https://raw.githubusercontent.com/hacknonym/scanNport/master/scanNport.sh | bash /dev/stdin <arg1> <arg2> <arg3>
 
 e.g. 
-curl -s https://github.com/hacknonym/scanNport/blob/master/scanNport.sh | bash /dev/stdin 10.0.0.0/16 -s
-curl -s https://github.com/hacknonym/scanNport/blob/master/scanNport.sh | bash /dev/stdin 10.0.0.0/16 -p 20,21,22,23,25,80
+curl -s https://raw.githubusercontent.com/hacknonym/scanNport/master/scanNport.sh | bash /dev/stdin 10.0.0.0/16 -s
+curl -s https://raw.githubusercontent.com/hacknonym/scanNport/master/scanNport.sh | bash /dev/stdin 10.0.0.0/16 -p 20,21,22,23,25,80
 ```
 
 ### Usage 
