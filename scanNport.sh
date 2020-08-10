@@ -210,7 +210,7 @@ function launch_scan(){
 							echo -en "\033[1A"
 							echo -e "\r> port $p"
 						else
-							echo -en "\r ($ip_addr) $p/65536"
+							echo -en "\r ($ip_addr) $p/65535"
 						fi
 					done
 				#scan specific or common ports
@@ -247,7 +247,7 @@ function launch_scan(){
 									echo -en "\033[1A"
 									echo -e "\r> port $p"
 								else
-									echo -en "\r ($seg0.$seg1.$seg2.$i) $p/65536"
+									echo -en "\r ($seg0.$seg1.$seg2.$i) $p/65535"
 								fi
 							done
 						#scan specific or common ports
@@ -288,7 +288,7 @@ function launch_scan(){
 										echo -en "\033[1A"
 										echo -e "\r> port $p"
 									else
-										echo -en "\r ($seg0.$seg1.$i.$j) $p/65536"
+										echo -en "\r ($seg0.$seg1.$i.$j) $p/65535"
 									fi
 								done
 							elif [ $2 -eq 1 ] ; then
@@ -333,7 +333,7 @@ function launch_scan(){
 											echo -en "\033[1A"
 											echo -e "\r> port $p"
 										else
-											echo -en "\r ($seg0.$i.$j.$k) $p/65536"
+											echo -en "\r ($seg0.$i.$j.$k) $p/65535"
 										fi
 									done
 								elif [ $2 -eq 1 ] ; then
